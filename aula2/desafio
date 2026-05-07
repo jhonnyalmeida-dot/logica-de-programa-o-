@@ -1,0 +1,12 @@
+
+nome = input("digite seu nome: ")
+idade = input("digite sua data de nascimento: ")
+peso = input("digite seu peso: ")
+altura= input("digite sua altura: ")
+
+print("\n olá",nome," seja nem vindo ao sistema python")
+print("ola seu nome é,", nome,)
+print("sua idade é",idade,)
+print("seu peso é",peso,)
+print("sua altura é", altura,)
+print(type(nome))
