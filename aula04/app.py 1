@@ -1,0 +1,9 @@
+lista_nomes = [' arthur cintra', 'jhonny', 'arthu duart', 'arthur ribeiro','laura', 'bianca', 'erik', 'pedro b', 'pedro in','matheus nn' ' matheus fer', 'jose',
+'felipe', 'gustavo', 'vitor']
+
+for i, nome in enumerate(lista_nome)
+    print(f'{i+1} {nome}')
+
+nome_buscar = input('Digite um nome para buscar: ').title()
+if nome_buscar in lista_nomes:
+    print('Usuario encontrado!')
